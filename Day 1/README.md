@@ -174,3 +174,122 @@ Implemented in Java using:
 * Optimized HashMap Approach
 
 to understand the trade-offs between time complexity and space complexity while solving the Two Sum problem.
+
+---
+
+# Add Two Numbers (Linked List)
+
+## Problem Statement
+
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each node contains a single digit.
+
+Add the two numbers and return the sum as a linked list.
+
+You may assume the two numbers do not contain any leading zeros, except the number 0 itself.
+
+### Example
+
+**Input:**
+
+```text
+l1 = [2,4,3]
+l2 = [5,6,4]
+```
+
+**Output:**
+
+```text
+[7,0,8]
+```
+
+**Explanation:**
+
+```text
+342 + 465 = 807
+```
+
+---
+
+## Approach
+
+Use a dummy node to build the resulting linked list while traversing both input lists simultaneously.
+
+At each step:
+
+1. Read values from both lists.
+2. Add them along with the carry from the previous step.
+3. Create a new node with `sum % 10`.
+4. Update carry using `sum / 10`.
+5. Move to the next nodes.
+6. Continue until both lists and carry are exhausted.
+
+---
+
+## Java Solution
+
+```java
+class Solution {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+
+        ListNode dummy = new ListNode(0);
+        ListNode current = dummy;
+
+        int carry = 0;
+
+        while (l1 != null || l2 != null || carry != 0) {
+
+            int v1 = (l1 != null) ? l1.val : 0;
+            int v2 = (l2 != null) ? l2.val : 0;
+
+            int sum = v1 + v2 + carry;
+
+            carry = sum / 10;
+
+            current.next = new ListNode(sum % 10);
+            current = current.next;
+
+            if (l1 != null) {
+                l1 = l1.next;
+            }
+
+            if (l2 != null) {
+                l2 = l2.next;
+            }
+        }
+
+        return dummy.next;
+    }
+}
+```
+
+---
+
+## Complexity Analysis
+
+| Complexity       | Value        |
+| ---------------- | ------------ |
+| Time Complexity  | O(max(m, n)) |
+| Space Complexity | O(max(m, n)) |
+
+Where:
+
+* `m` = length of first linked list
+* `n` = length of second linked list
+
+---
+
+## Key Takeaways
+
+* Demonstrates linked list traversal.
+* Uses a dummy node to simplify list construction.
+* Efficiently handles carry propagation.
+* One-pass solution with linear time complexity.
+
+---
+
+## LeetCode
+
+Problem: **Add Two Numbers (#2)**
+
+Practice Link: https://leetcode.com/problems/add-two-numbers/
+
