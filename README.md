@@ -20,6 +20,13 @@ This repository documents my daily coding practice, Data Structures & Algorithms
 | Roman to Integer                               | HashMap + String Traversal  | Java     |
 | Python Exceptions                              | Exception Handling Concepts | Python   |
 
+### Day 3
+
+| Problem / Topic                 | Approach                                 | Language |
+| ------------------------------- | ---------------------------------------- | -------- |
+| Longest Palindromic Substring   | Expand Around Center                     | Java     |
+| Python Control Flow and Imports | Control Flow Statements & Module Imports | Python   |
+
 ---
 
 ## Repository Structure
@@ -27,17 +34,23 @@ This repository documents my daily coding practice, Data Structures & Algorithms
 ```text
 Agentic_Ai_Training/
 ├── README.md
+│
 ├── Day 1/
 │   ├── README.md
 │   ├── TwoSum.java
 │   ├── TwoSum2.java
 │   └── AddTwoNumbers.java
 │
-└── Day 2/
+├── Day 2/
+│   ├── README.md
+│   ├── LengthOfLongestSubstring.java
+│   ├── RomanToInteger.java
+│   └── python_exceptions.md
+│
+└── Day 3/
     ├── README.md
-    ├── LengthOfLongestSubstring.java
-    ├── RomanToInteger.java
-    └── python_exceptions.md
+    ├── LongestPalindromicSubstring.java
+    └── python_control_flow_and_imports.md
 ```
 
 ---
@@ -51,7 +64,10 @@ Agentic_Ai_Training/
 * HashSet
 * Linked Lists
 * Sliding Window
+* Strings
 * String Manipulation
+* Palindrome Detection
+* Expand Around Center
 * Brute Force vs Optimized Solutions
 * Time & Space Complexity Analysis
 
@@ -62,6 +78,12 @@ Agentic_Ai_Training/
 * else and finally
 * Common Built-in Exceptions
 * Raising Exceptions
+* Control Flow Statements
+* if, elif, else
+* for and while Loops
+* break, continue, pass
+* Module Imports
+* Import Aliases
 
 ---
 
@@ -88,7 +110,16 @@ Agentic_Ai_Training/
 | ----- | --------------------------- |
 | Day 1 | 3                           |
 | Day 2 | 3                           |
-| Total | 6                           |
+| Day 3 | 2                           |
+| Total | 8                           |
+
+### Overall Progress
+
+| Category              | Count |
+| --------------------- | ----- |
+| DSA Problems Solved   | 6     |
+| Python Topics Learned | 2     |
+| Total Learning Items  | 8     |
 
 ---
 
@@ -106,6 +137,14 @@ Agentic_Ai_Training/
 * Practiced efficient use of HashSet and HashMap.
 * Improved understanding of string traversal and pattern recognition.
 * Learned Python exception handling and error management techniques.
+
+### Day 3
+
+* Learned how palindromes can be expanded from a center.
+* Understood the difference between odd and even length palindromes.
+* Improved string processing and two-pointer techniques.
+* Learned Python control flow constructs and decision-making statements.
+* Practiced importing modules and using built-in Python libraries.
 
 ---
 
