@@ -27,6 +27,14 @@ This repository documents my daily coding practice, Data Structures & Algorithms
 | Longest Palindromic Substring   | Expand Around Center                     | Java     |
 | Python Control Flow and Imports | Control Flow Statements & Module Imports | Python   |
 
+### Day 4
+
+| Problem / Topic                        | Approach             | Language |
+| -------------------------------------- | -------------------- | -------- |
+| Container With Most Water              | Two Pointers         | Java     |
+| Longest Common Prefix                  | Horizontal Scanning  | Java     |
+| Synchronous & Asynchronous Programming | Programming Concepts | Python   |
+
 ---
 
 ## Repository Structure
@@ -47,10 +55,16 @@ Agentic_Ai_Training/
 │   ├── RomanToInteger.java
 │   └── python_exceptions.md
 │
-└── Day 3/
+├── Day 3/
+│   ├── README.md
+│   ├── LongestPalindromicSubstring.java
+│   └── python_control_flow_and_imports.md
+│
+└── Day 4/
     ├── README.md
-    ├── LongestPalindromicSubstring.java
-    └── python_control_flow_and_imports.md
+    ├── ContainerWithMostWater.java
+    ├── LongestCommonPrefix.java
+    └── synchronous_and_asynchronous_programming.md
 ```
 
 ---
@@ -63,11 +77,15 @@ Agentic_Ai_Training/
 * HashMap
 * HashSet
 * Linked Lists
+* Two Pointers
 * Sliding Window
 * Strings
 * String Manipulation
+* Prefix Matching
 * Palindrome Detection
 * Expand Around Center
+* Horizontal Scanning
+* Greedy Thinking
 * Brute Force vs Optimized Solutions
 * Time & Space Complexity Analysis
 
@@ -84,6 +102,9 @@ Agentic_Ai_Training/
 * break, continue, pass
 * Module Imports
 * Import Aliases
+* Synchronous Programming
+* Asynchronous Programming
+* Blocking vs Non-Blocking Execution
 
 ---
 
@@ -111,15 +132,16 @@ Agentic_Ai_Training/
 | Day 1 | 3                           |
 | Day 2 | 3                           |
 | Day 3 | 2                           |
-| Total | 8                           |
+| Day 4 | 3                           |
+| Total | 11                          |
 
 ### Overall Progress
 
 | Category              | Count |
 | --------------------- | ----- |
-| DSA Problems Solved   | 6     |
-| Python Topics Learned | 2     |
-| Total Learning Items  | 8     |
+| DSA Problems Solved   | 8     |
+| Python Topics Learned | 3     |
+| Total Learning Items  | 11    |
 
 ---
 
@@ -145,6 +167,14 @@ Agentic_Ai_Training/
 * Improved string processing and two-pointer techniques.
 * Learned Python control flow constructs and decision-making statements.
 * Practiced importing modules and using built-in Python libraries.
+
+### Day 4
+
+* Learned the Two Pointers technique through the Container With Most Water problem.
+* Understood why moving the smaller height pointer leads to an optimal solution.
+* Practiced string comparison and prefix matching using Horizontal Scanning.
+* Learned the differences between synchronous and asynchronous programming.
+* Explored blocking vs non-blocking execution and their real-world applications.
 
 ---
 
