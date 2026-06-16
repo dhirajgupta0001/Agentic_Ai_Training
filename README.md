@@ -35,6 +35,18 @@ This repository documents my daily coding practice, Data Structures & Algorithms
 | Longest Common Prefix                  | Horizontal Scanning  | Java     |
 | Synchronous & Asynchronous Programming | Programming Concepts | Python   |
 
+### Day 5
+
+| Practice / Topic   | Concepts Covered                          | Language |
+| ------------------ | ----------------------------------------- | -------- |
+| Asyncio Practice 1 | create_task(), Event Loop Execution Order | Python   |
+| Asyncio Practice 2 | Task Scheduling and Awaiting Tasks        | Python   |
+| Asyncio Practice 3 | asyncio.gather() Concurrent Execution     | Python   |
+| Asyncio Practice 4 | Sequential Await Execution                | Python   |
+| Asyncio Practice 5 | Task Cancellation and CancelledError      | Python   |
+| Asyncio Practice 6 | Exception Propagation in gather()         | Python   |
+| Asyncio Practice 7 | return_exceptions=True in gather()        | Python   |
+
 ---
 
 ## Repository Structure
@@ -42,29 +54,21 @@ This repository documents my daily coding practice, Data Structures & Algorithms
 ```text
 Agentic_Ai_Training/
 ├── README.md
-│
 ├── Day 1/
-│   ├── README.md
-│   ├── TwoSum.java
-│   ├── TwoSum2.java
-│   └── AddTwoNumbers.java
-│
 ├── Day 2/
-│   ├── README.md
-│   ├── LengthOfLongestSubstring.java
-│   ├── RomanToInteger.java
-│   └── python_exceptions.md
-│
 ├── Day 3/
-│   ├── README.md
-│   ├── LongestPalindromicSubstring.java
-│   └── python_control_flow_and_imports.md
-│
-└── Day 4/
+├── Day 4/
+└── Day 5/
     ├── README.md
-    ├── ContainerWithMostWater.java
-    ├── LongestCommonPrefix.java
-    └── synchronous_and_asynchronous_programming.md
+    └── Question1.py
+    └── Question2.py
+    └── Question3.py
+    └── Question4.py
+    └── Question5.py
+    └── Question6.py
+    └── Question7.py
+    └── tempCodeRunner.py
+
 ```
 
 ---
@@ -92,36 +96,22 @@ Agentic_Ai_Training/
 ### Python
 
 * Exception Handling
-* try-except Blocks
-* else and finally
-* Common Built-in Exceptions
-* Raising Exceptions
-* Control Flow Statements
-* if, elif, else
-* for and while Loops
-* break, continue, pass
+* Control Flow
 * Module Imports
-* Import Aliases
 * Synchronous Programming
 * Asynchronous Programming
-* Blocking vs Non-Blocking Execution
-
----
-
-## Goals
-
-* Strengthen Data Structures & Algorithms fundamentals
-* Improve problem-solving skills
-* Master Java for coding interviews
-* Learn Python alongside DSA practice
-* Learn optimization techniques
-* Maintain a consistent GitHub coding streak
-
----
-
-## Platforms
-
-* LeetCode
+* Event Loop
+* Coroutines
+* async / await
+* create_task()
+* asyncio.gather()
+* Task Scheduling
+* Concurrent Execution
+* Sequential Execution
+* Task Cancellation
+* CancelledError
+* Exception Handling in Async Programs
+* return_exceptions=True
 
 ---
 
@@ -133,48 +123,33 @@ Agentic_Ai_Training/
 | Day 2 | 3                           |
 | Day 3 | 2                           |
 | Day 4 | 3                           |
-| Total | 11                          |
+| Day 5 | 7                           |
+| Total | 18                          |
 
 ### Overall Progress
 
-| Category              | Count |
-| --------------------- | ----- |
-| DSA Problems Solved   | 8     |
-| Python Topics Learned | 3     |
-| Total Learning Items  | 11    |
+| Category                  | Count |
+| ------------------------- | ----- |
+| DSA Problems Solved       | 8     |
+| Python Topics Learned     | 4     |
+| Asyncio Practice Programs | 7     |
+| Total Learning Items      | 19    |
 
 ---
 
 ## Key Learnings
 
-### Day 1
+### Day 5
 
-* Learned brute force and optimized approaches using HashMap.
-* Practiced Linked List manipulation and carry handling.
-* Improved understanding of time and space complexity.
-
-### Day 2
-
-* Learned the Sliding Window technique for string-based problems.
-* Practiced efficient use of HashSet and HashMap.
-* Improved understanding of string traversal and pattern recognition.
-* Learned Python exception handling and error management techniques.
-
-### Day 3
-
-* Learned how palindromes can be expanded from a center.
-* Understood the difference between odd and even length palindromes.
-* Improved string processing and two-pointer techniques.
-* Learned Python control flow constructs and decision-making statements.
-* Practiced importing modules and using built-in Python libraries.
-
-### Day 4
-
-* Learned the Two Pointers technique through the Container With Most Water problem.
-* Understood why moving the smaller height pointer leads to an optimal solution.
-* Practiced string comparison and prefix matching using Horizontal Scanning.
-* Learned the differences between synchronous and asynchronous programming.
-* Explored blocking vs non-blocking execution and their real-world applications.
+* Learned how Python's event loop schedules coroutines.
+* Understood the difference between `await` and `create_task()`.
+* Practiced running tasks concurrently using `asyncio.gather()`.
+* Compared concurrent execution with sequential execution.
+* Learned how task cancellation works using `task.cancel()`.
+* Understood how `CancelledError` propagates through async code.
+* Explored exception handling in asynchronous programs.
+* Learned how `return_exceptions=True` prevents gather() from failing fast.
+* Strengthened understanding of real-world asynchronous programming patterns.
 
 ---
 
