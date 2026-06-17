@@ -56,6 +56,18 @@ This repository documents my daily coding practice, Data Structures & Algorithms
 | Python 2 vs Python 3              | Version Comparison     | Python   |
 | Python Virtual Environment (venv) | Environment Management | Python   |
 
+### Day 7
+
+| Problem / Topic       | Approach                    | Language |
+| --------------------- | --------------------------- | -------- |
+| Valid Parentheses     | Stack (LIFO)                | Java     |
+| LangChain Chat Models | Chat Model Fundamentals     | Python   |
+| init_chat_model()     | Model Initialization        | Python   |
+| Python Classes        | Object-Oriented Programming | Python   |
+| Shallow Copy          | Object Copying              | Python   |
+| Deep Copy             | Memory Management           | Python   |
+| UV Package Manager    | Modern Python Tooling       | Python   |
+
 ---
 
 ## Repository Structure
@@ -65,9 +77,28 @@ Agentic_Ai_Training/
 ├── README.md
 │
 ├── Day 1/
+│   ├── README.md
+│   ├── TwoSum.java
+│   ├── TwoSum2.java
+│   └── AddTwoNumbers.java
+│
 ├── Day 2/
+│   ├── README.md
+│   ├── LengthOfLongestSubstring.java
+│   ├── RomanToInteger.java
+│   └── python_exceptions.md
+│
 ├── Day 3/
+│   ├── README.md
+│   ├── LongestPalindromicSubstring.java
+│   └── python_control_flow_and_imports.md
+│
 ├── Day 4/
+│   ├── README.md
+│   ├── ContainerWithMostWater.java
+│   ├── LongestCommonPrefix.java
+│   └── synchronous_and_asynchronous_programming.md
+│
 ├── Day 5/
 │   ├── README.md
 │   ├── Question1.py
@@ -79,15 +110,25 @@ Agentic_Ai_Training/
 │   ├── Question7.py
 │   └── tempCodeRunner.py
 │
-└── Day 6/
+├── Day 6/
+│   ├── README.md
+│   ├── RottingOranges.java
+│   ├── agent_demo.py
+│   ├── python2_vs_python3.md
+│   ├── python_venv_guide.md
+│   ├── pyvenv.cfg
+│   ├── tempCodeRunnerFile.py
+│   └── langchain_guide.md
+│
+└── Day 7/
     ├── README.md
-    ├── RottingOranges.java
-    ├── agent_demo.py
-    ├── python2_vs_python3.md
-    └── python_venv_guide.md
-    └── pyvenv.cfg
-    └── tempCodeRunnerFile.py
-    └── langchain_guide.md
+    ├── myproject
+    ├── ChatOllama.py
+    ├── langchain_chat_models_and_init_chat_model.md
+    ├── ValidParentheses.java
+    ├── python_classes.md
+    ├── python_shallow_copy_deep_copy.md
+    └── uv_python_package_manager_guide.md
 ```
 
 ---
@@ -100,6 +141,7 @@ Agentic_Ai_Training/
 * HashMap
 * HashSet
 * Linked Lists
+* Stack
 * Queue
 * Breadth-First Search (BFS)
 * Multi-Source BFS
@@ -123,7 +165,13 @@ Agentic_Ai_Training/
 * Module Imports
 * Python 2 vs Python 3
 * Virtual Environments (venv)
+* UV Package Manager
 * Dependency Management
+* Classes and Objects
+* Constructors (`__init__`)
+* Shallow Copy
+* Deep Copy
+* Memory References
 * Synchronous Programming
 * Asynchronous Programming
 * Event Loop
@@ -142,6 +190,8 @@ Agentic_Ai_Training/
 ### AI Engineering
 
 * LangChain Fundamentals
+* LangChain Chat Models
+* init_chat_model()
 * AI Agents
 * LLM Workflows
 * Prompt Engineering Basics
@@ -160,17 +210,19 @@ Agentic_Ai_Training/
 | Day 4 | 3                           |
 | Day 5 | 7                           |
 | Day 6 | 4                           |
-| Total | 22                          |
+| Day 7 | 7                           |
+| Total | 29                          |
 
 ### Overall Progress
 
 | Category                   | Count |
 | -------------------------- | ----- |
-| DSA Problems Solved        | 8     |
-| Python Topics Learned      | 6     |
+| DSA Problems Solved        | 9     |
+| Python Topics Learned      | 10    |
 | Asyncio Practice Programs  | 7     |
 | AI Projects / Agents Built | 1     |
-| Total Learning Items       | 22    |
+| LangChain Topics Studied   | 3     |
+| Total Learning Items       | 30    |
 
 ---
 
@@ -186,18 +238,24 @@ Agentic_Ai_Training/
 * Understood how `CancelledError` propagates through async code.
 * Explored exception handling in asynchronous programs.
 * Learned how `return_exceptions=True` prevents gather() from failing fast.
-* Strengthened understanding of real-world asynchronous programming patterns.
 
 ### Day 6
 
 * Learned how Multi-Source BFS solves matrix traversal problems efficiently.
 * Practiced queue-based graph traversal through the Rotting Oranges problem.
 * Built a simple AI agent using LangChain.
-* Understood the role of agents, prompts, and tools in AI applications.
-* Studied the major differences between Python 2 and Python 3.
-* Learned why Python 3 is the modern industry standard.
-* Practiced creating and managing isolated Python environments using venv.
-* Improved understanding of dependency management and project setup.
+* Studied Python 2 vs Python 3 differences.
+* Practiced environment management using venv.
+
+### Day 7
+
+* Learned how stacks solve matching bracket problems efficiently.
+* Practiced the LIFO principle through the Valid Parentheses problem.
+* Studied LangChain chat models and `init_chat_model()`.
+* Strengthened Python OOP fundamentals through classes.
+* Understood shallow copy vs deep copy.
+* Explored memory references and object duplication.
+* Learned modern Python package management using UV.
 
 ---
 
@@ -206,3 +264,4 @@ Agentic_Ai_Training/
 **Dhiraj Gupta**
 
 Learning, building, and documenting my journey toward becoming a stronger software engineer through consistent coding practice, algorithmic problem solving, AI engineering, and continuous learning.
+
