@@ -166,11 +166,11 @@ Agentic_Ai_Training/
 
 | Category                   | Count |
 | -------------------------- | ----- |
-| DSA Problems Solved        | 9     |
+| DSA Problems Solved        | 8     |
 | Python Topics Learned      | 6     |
 | Asyncio Practice Programs  | 7     |
 | AI Projects / Agents Built | 1     |
-| Total Learning Items       | 23    |
+| Total Learning Items       | 22    |
 
 ---
 
