@@ -1,6 +1,6 @@
 # Agentic AI Training
 
-This repository documents my daily coding practice, Data Structures & Algorithms (DSA) journey, and programming concepts learning using Java and Python.
+This repository documents my daily coding practice, Data Structures & Algorithms (DSA) journey, and programming concepts learning using Java, Python, and AI Engineering tools.
 
 ## Progress
 
@@ -47,6 +47,15 @@ This repository documents my daily coding practice, Data Structures & Algorithms
 | Asyncio Practice 6 | Exception Propagation in gather()         | Python   |
 | Asyncio Practice 7 | return_exceptions=True in gather()        | Python   |
 
+### Day 6
+
+| Problem / Topic                   | Approach               | Language |
+| --------------------------------- | ---------------------- | -------- |
+| Rotting Oranges                   | Multi-Source BFS       | Java     |
+| Simple LangChain Agent            | Agent + LLM Workflow   | Python   |
+| Python 2 vs Python 3              | Version Comparison     | Python   |
+| Python Virtual Environment (venv) | Environment Management | Python   |
+
 ---
 
 ## Repository Structure
@@ -54,21 +63,31 @@ This repository documents my daily coding practice, Data Structures & Algorithms
 ```text
 Agentic_Ai_Training/
 ├── README.md
+│
 ├── Day 1/
 ├── Day 2/
 ├── Day 3/
 ├── Day 4/
-└── Day 5/
+├── Day 5/
+│   ├── README.md
+│   ├── Question1.py
+│   ├── Question2.py
+│   ├── Question3.py
+│   ├── Question4.py
+│   ├── Question5.py
+│   ├── Question6.py
+│   ├── Question7.py
+│   └── tempCodeRunner.py
+│
+└── Day 6/
     ├── README.md
-    └── Question1.py
-    └── Question2.py
-    └── Question3.py
-    └── Question4.py
-    └── Question5.py
-    └── Question6.py
-    └── Question7.py
-    └── tempCodeRunner.py
-
+    ├── RottingOranges.java
+    ├── agent_demo.py
+    ├── python2_vs_python3.md
+    └── python_venv_guide.md
+    └── pyvenv.cfg
+    └── tempCodeRunnerFile.py
+    └── langchain_guide.md
 ```
 
 ---
@@ -81,6 +100,10 @@ Agentic_Ai_Training/
 * HashMap
 * HashSet
 * Linked Lists
+* Queue
+* Breadth-First Search (BFS)
+* Multi-Source BFS
+* Matrix Traversal
 * Two Pointers
 * Sliding Window
 * Strings
@@ -98,6 +121,9 @@ Agentic_Ai_Training/
 * Exception Handling
 * Control Flow
 * Module Imports
+* Python 2 vs Python 3
+* Virtual Environments (venv)
+* Dependency Management
 * Synchronous Programming
 * Asynchronous Programming
 * Event Loop
@@ -113,6 +139,15 @@ Agentic_Ai_Training/
 * Exception Handling in Async Programs
 * return_exceptions=True
 
+### AI Engineering
+
+* LangChain Fundamentals
+* AI Agents
+* LLM Workflows
+* Prompt Engineering Basics
+* Tool Calling Concepts
+* Agent Execution Flow
+
 ---
 
 ## Current Stats
@@ -124,16 +159,18 @@ Agentic_Ai_Training/
 | Day 3 | 2                           |
 | Day 4 | 3                           |
 | Day 5 | 7                           |
-| Total | 18                          |
+| Day 6 | 4                           |
+| Total | 22                          |
 
 ### Overall Progress
 
-| Category                  | Count |
-| ------------------------- | ----- |
-| DSA Problems Solved       | 8     |
-| Python Topics Learned     | 4     |
-| Asyncio Practice Programs | 7     |
-| Total Learning Items      | 19    |
+| Category                   | Count |
+| -------------------------- | ----- |
+| DSA Problems Solved        | 9     |
+| Python Topics Learned      | 6     |
+| Asyncio Practice Programs  | 7     |
+| AI Projects / Agents Built | 1     |
+| Total Learning Items       | 23    |
 
 ---
 
@@ -151,10 +188,21 @@ Agentic_Ai_Training/
 * Learned how `return_exceptions=True` prevents gather() from failing fast.
 * Strengthened understanding of real-world asynchronous programming patterns.
 
+### Day 6
+
+* Learned how Multi-Source BFS solves matrix traversal problems efficiently.
+* Practiced queue-based graph traversal through the Rotting Oranges problem.
+* Built a simple AI agent using LangChain.
+* Understood the role of agents, prompts, and tools in AI applications.
+* Studied the major differences between Python 2 and Python 3.
+* Learned why Python 3 is the modern industry standard.
+* Practiced creating and managing isolated Python environments using venv.
+* Improved understanding of dependency management and project setup.
+
 ---
 
 ## Author
 
 **Dhiraj Gupta**
 
-Learning, building, and documenting my journey toward becoming a stronger software engineer through consistent coding practice, algorithmic problem solving, and continuous learning.
+Learning, building, and documenting my journey toward becoming a stronger software engineer through consistent coding practice, algorithmic problem solving, AI engineering, and continuous learning.
