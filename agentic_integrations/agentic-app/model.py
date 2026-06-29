@@ -1,8 +1,10 @@
+from dotenv import load_dotenv
+load_dotenv()
 import os
 from langchain_openai import ChatOpenAI
 #from langchain.tools import tool
 from langchain.agents import create_agent
-
+print(os.getenv("HF_TOKEN"))
 model = ChatOpenAI(
       api_key = os.getenv("HF_TOKEN"),
       base_url="https://router.huggingface.co/v1",
